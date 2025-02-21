@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { fetchProductThunk } from '../redux/slices/productslice'
+import { fetchProductThunk } from '../redux/slices/productSlice'
 import { useDispatch, useSelector } from 'react-redux'
 import { addToWishlist } from '../redux/slices/wishlistSlice'
 import { addToCart } from '../redux/slices/cartSlice'
-import { leftShift, rightShift } from '../redux/slices/productslice'
+import { leftShift, rightShift } from '../redux/slices/productSlice'
 
 
 function Landing() {
