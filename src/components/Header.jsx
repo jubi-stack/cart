@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import { useSelector,useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { searchProduct } from '../redux/slices/productslice';
+import { searchProduct } from '../redux/slices/productSlice';
 
 
 
